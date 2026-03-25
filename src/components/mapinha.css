@@ -1,32 +1,22 @@
-body{
-    background: #c3e9fc;
+
+.mapa{
+    max-width: 70vw;
+    margin: 1rem;
+    padding: 12px;
 }
 
 .mapinha{
-    max-width: 720px;
-    margin: 1rem auto;
-    padding: 1rem;
-}
-
-.erro{
-    color: #b20202;
-    background: #ffdddd;
-    font-size: 1.2rem;
-}
-
-.mapa{
     width: 100%;
-    height: 320px;
-    border: 2px solid #6bcdfe;
-    border-radius: 10px;
+    height: 500px;
+    overflow: hidden;
 }
 
 .painel{
-    background: #ebf7ff;
-    border: 2px solid #bee3fc;
+    background: #f6e7ff;
+    border: 1px #956896 solid;
+    border-radius: 10px;
     padding: 1rem;
     margin-bottom: 12px;
-    border-radius: 12px;
 }
 
 .painel-topo{
@@ -36,41 +26,39 @@ body{
     margin-bottom: 6px;
 }
 
+.vazio{
+    color: red;
+}
+
 .botao{
-    background: #116c90;
+    background: #6c1882;
     color: white;
     border: 0;
+    border-radius: 8px;
     padding: 6px 10px;
-    border-radius: 10px;
     cursor: pointer;
 }
 .botao:hover{
-    background: #012736;
+    background: #2a0833;
     text-decoration: underline;
 }
-
-.painel span{
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #012736;
-}
-
-.lista-pontos{
+.lista-pontinhos{
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.lista-pontos-item{
+.pontinhos{
     display: grid;
-    grid-template-columns: 48px 1fr 110px;
+    grid-template-columns: 48px 1fr 130px;
     gap: 10px;
     align-items: center;
     padding: 6px 0;
-    border-top: 1px dashed #ddd;
+    border-top: gray 1px dashed;
 }
 
 .dist{
     text-align: right;
-    color: #116c90;
+    color: #1c011c;
+    font-weight: bolder;
 }

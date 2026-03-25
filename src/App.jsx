@@ -1,10 +1,12 @@
-import Mapinha from "./components/Mapinha";
-import "./components/mapinha.css"
+import Mapinha from "./components/Mapinha"
+import Fases from "./pages/Fases"
+//import './App.css'
 
-export default function App(){
-
+function App() {
   return(
-    <Mapinha />
+    // <Mapinha />
+    <Fases />
   )
-
 }
+
+export default App
