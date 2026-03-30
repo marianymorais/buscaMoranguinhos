@@ -20,7 +20,7 @@ export default function IconButton({
         <li className="iconGrid-item">
             <button 
                 type="button"
-                className={`icon-button${locked? "icon-button--locked" : ""}${solved? "icon-button--solved": ""}`}
+                className={`icon-button ${locked? "icon-button--locked" : ""}${solved? "icon-button--solved": ""}`}
                 aria-haspopup="dialog"
                 aria-controls={dialogId}
                 aria-label={aria}

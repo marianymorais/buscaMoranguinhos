@@ -3,7 +3,7 @@ import questoes from "../../public/data/perguntas.json"
 
 import CaixaQuestoes from "../components/CaixaQuestoes"
 import GridIcones from "../components/GridIcones"
-
+import "./fases.css"
 
 export default function Fases(){
 
